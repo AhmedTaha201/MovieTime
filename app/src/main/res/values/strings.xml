@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+
+    <string name="API_KEY" translatable="false"></string>
+
+    <!-- Accessibility strings -->
+    <string name="a11y_main_poster">Poster of the movie : %s</string>
+
+    <!--Preferences Strings-->
+    <!-- Sort order preference -->
+    <string name="pref_list_order_key" translatable="false">sort_order</string>
+    <string name="pref_list_order_label">Sort Order</string>
+    <string name="pref_list_order_default_value">@string/pref_list_popular_value</string>
+
+    <string name="pref_list_popular_label">Popular</string>
+    <string name="pref_list_top_rated_label">Top Rated</string>
+    <string name="pref_list_favourites_label">Favourites</string>
+
+    <string name="pref_list_popular_value" translatable="false">popular</string>
+    <string name="pref_list_top_rated_value" translatable="false">top_rated</string>
+    <string name="pref_list_favourites_value" translatable="false">favourites</string>
+
+    <string name="menu_settings_label">Settings</string>
+    <string name="menu_share_label">Share</string>
+
+    <string name="detail_label_overview">OverView : </string>
+    <string name="detail_label_release_date">Release Date :</string>
+    <string name="detail_label_rate">Rate : </string>
+    <string name="detail_trailers_label">Trailers</string>
+    <string name="detail_reviews_label">Reviews</string>
+
+
+    <string name="poster_transition">posterTransition</string>
+
+    <string name="error_no_connection_msg">No Internet Connection !</string>
+    <string name="error_no_api_msg">No API key !  \n Get one from tmdb.org and put it in strings.xml</string>
+    <string name="error_no_favourites">No Favourite movies \n Favourite some movies or switch to Popular or Top rated movies</string>
+
+
+
+<!-- Used to verify the site of the trailer returned by the API -->
+    <string name="youtube_site_name">YouTube</string>
+    <string name="video_type_trailer">Trailer</string>
+
+    <string name="reviewer_label">Reviewer :</string>
+
+    <string name="review_activity_label">Review</string>
+
+    <string name="trailer_share_chooser_title">Share the latest trailer</string>
+    <string name="trailer_share_text">Check out the latest trailer of \n %s \n %s</string>
+    <string name="vote_count_label">Vote Count</string>
+    <string name="a11y_cd_main_movie_poster">Movie poster</string>
+    <string name="detail_tv_budget_label">Budget :</string>
+    <string name="detail_tv_revenue_label">Revenue :</string>
+
+    <string name="duration_string">%sh %sm</string>
+    <string name="year_string">\ (%s)</string>
+    <string name="money_amount_million">%s\ M\ \u24</string>
+    <string name="money_amount_billion">%s\ B\ \u24</string>
+
+
+</resources>
